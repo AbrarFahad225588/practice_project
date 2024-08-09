@@ -8,4 +8,8 @@ def show_form(request):
     else:
          form=PracticeForm()
     return render(request,'form.html',{'form':form})
+
+
+
+
    
